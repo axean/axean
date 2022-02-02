@@ -1,1 +1,1 @@
-
+![rhombus](rhombus.gif)
