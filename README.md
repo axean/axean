@@ -6,5 +6,5 @@
 - new submodule: `git submodule add <https_url>`
 - update all submodules: `git submodule update --remote --merge`, then commit the new gitlink
 - list all jupyter kernels: `jupyter kernelspec list`
-- install a new jupyter kernel for a python interpreter in a conda env `python -m ipykernel install --user --name=<CONDA ENV NAME> --display-name="Python <VERSION>: <PRETTY NAME>"`
+- install a new jupyter kernel for a python interpreter in a conda env `python -m ipykernel install --user --name=<CONDA ENV NAME> --display-name="$(python --version): <PRETTY NAME>"`
 ![ducks](ducks.gif)
