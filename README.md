@@ -1,13 +1,3 @@
-# Metropolis algorithm
-<p align="center">
-  <img src="met3d_w_git.gif" />
-</p>
-
-# Topological Data Analysis
-<p align="center">
-  <img src="ducks.gif" />
-</p>
-
 # Python workflow "cheatsheet"
 - delete last git stash: `git stash drop`
 - remove old jupyter kernels: `jupyter kernelspec uninstall unwanted-kernel`
