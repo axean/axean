@@ -7,3 +7,5 @@
 - update all submodules: `git submodule update --remote --merge`, then commit the new gitlink
 - list all jupyter kernels: `jupyter kernelspec list`
 - install a new jupyter kernel for a python interpreter in a conda env `python -m ipykernel install --user --name=<CONDA ENV NAME> --display-name="$(python --version): <PRETTY NAME>"`
+
+A jupyter kernel is basically something which allows you to access other conda environments using the same jupyter notebook server?
